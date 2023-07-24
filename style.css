@@ -1,14 +1,9 @@
-.mainContainer{
+body{
     background:url(https://img.freepik.com/free-photo/white-puzzle-pieces-blue-background_641386-665.jpg?w=826&t=st=1690177758~exp=1690178358~hmac=40b49fb2dc5b1f36c63b1f8ce8b48b6d4b0bc34a11af6605d29f8e5bfcbcbd73);
     font-family: serif;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
     background-position: center;
     background-size: cover;
-    height: 97vh;
-    background-repeat: no-repeat; 
-    align-items: center;
-    
+    align-items: center;   
 }  
 
 #heading{
