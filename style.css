@@ -1,0 +1,122 @@
+.mainContainer{
+    background:url(https://img.freepik.com/free-photo/white-puzzle-pieces-blue-background_641386-665.jpg?w=826&t=st=1690177758~exp=1690178358~hmac=40b49fb2dc5b1f36c63b1f8ce8b48b6d4b0bc34a11af6605d29f8e5bfcbcbd73);
+    font-family: serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-position: center;
+    background-size: cover;
+    height: 97vh;
+    background-repeat: no-repeat; 
+    align-items: center;
+    
+}  
+
+#heading{
+    margin: 20px;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 650;
+    font-style: normal;
+    letter-spacing:40px;
+    text-align: center;
+    color:#fff;
+}
+#container-two{
+    background: #f5f5f5;;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 1000px;
+    height:500px;
+    margin:auto;
+    position:relative;
+    border:2px solid #808080;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#image-puzzle{
+    width:405px;
+    height:405px;
+    position:relative;
+    left:80px;
+    top:45px;
+    border:1px solid #000;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;    
+}
+#image-puzzle-one{
+    width:200px;
+    height:200px;
+    background-image: url("imgs/fortD.jpg");
+    background-position: 200px 200px;
+    border:1px solid #000;
+}
+#image-puzzle-two{
+    width:200px;
+    height:200px;
+    background-image: url("imgs/fortD.jpg");
+    background-position: 200px 0px;
+    border:1px solid #000;
+}
+#image-puzzle-three{
+    width:200px;
+    height:200px;
+    background-image: url("imgs/fortD.jpg");
+    background-position: 0px 200px;;
+    border:1px solid #000;
+}
+#image-puzzle-four{
+    width:200px;
+    height:200px;
+    background-image: url("imgs/fortD.jpg");
+    background-position: 0px 0px;
+    border:1px solid #800;
+}
+#image-real{
+    width: 400px;
+    height: 400px;
+    background-image: url("imgs/fortD.jpg");
+    position:absolute;
+    right:80px;
+    top: 48px;
+    border:3px solid #800;
+}
+.button{
+    width:80px;
+    height:40px;
+    margin:10px;
+    border-radius:10px;
+    font-size: 20px;
+    font-family: serif;
+    background-color:#00ffff;
+    transition: 0.2s ease-in-out;
+    padding:5px;
+}
+.button:hover{
+    cursor: pointer;
+    font-size: 25px;
+    width:84px;
+    height:44px;
+}
+#container-three{
+    background:#f5f5f5;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    width: 500px;
+    height:100px;
+    position:absolute;
+    left:38%;
+    border:2px solid #808080;
+
+}
+
+#button-one{
+    position:relative;
+    left:110px;
+    top:23px
+}
+#button-two{
+    position:absolute;
+    right: 110px;
+    top:23px;
+}
